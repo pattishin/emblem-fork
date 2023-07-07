@@ -33,6 +33,7 @@ from opentelemetry.propagators.composite import CompositePropagator
 from opentelemetry.sdk.trace.export import BatchSpanProcessor
 from opentelemetry.sdk.trace import TracerProvider
 
+#
 # Avoid triggering otel during pytest runs
 if not pytest_is_running.is_running():
     provider = TracerProvider()

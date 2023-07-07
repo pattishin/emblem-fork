@@ -31,6 +31,7 @@ app.register_blueprint(campaigns_bp)
 app.register_blueprint(auth_bp)
 app.register_blueprint(robots_txt_bp)
 
+#
 # Initialize middleware
 auth.init(app)
 csp.init(app)

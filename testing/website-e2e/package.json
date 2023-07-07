@@ -1,7 +1,7 @@
 {
   "name": "emblem-e2e-tests",
   "version": "0.0.1",
-  "description": "End to end tests for the Emblem project",
+  "description": "End-to-end tests for the Emblem project",
   "main": "index.js",
   "scripts": {
     "test": "playwright test"
