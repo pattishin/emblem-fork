@@ -4,7 +4,6 @@ Emblem Giving is a sample application intended to demonstrate a complex, end-to-
 > This sample application is for learning purposes only. Real financial transactions are not made. The giving campaigns in the app are not real.
 
 ## Features
-
 This project features:
   * 2-tier web application architecture with Cloud Run
   * continuous delivery with Cloud Build
